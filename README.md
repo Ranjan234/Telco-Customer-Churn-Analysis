@@ -142,7 +142,7 @@ Interactive Filters
 
 # 📸 Dashboard Preview
 
-> Add your dashboard screenshots here.
+https://app.fabric.microsoft.com/view?r=eyJrIjoiNjMyODYwY2QtZjIxYi00OWYwLWJmZmQtNGFhYzFkMzNjOWJiIiwidCI6Ijc1ODk4MjEwLWZiNTUtNDk2ZS1iMDEyLWUxYzAzZDEzYWI2MCJ9
 
 ```
 Images/
