@@ -242,9 +242,9 @@ Business Insights & Recommendations
 
 **Soumya Ranjan Sahoo**
 
-- LinkedIn: https://www.linkedin.com/in/your-profile
-- GitHub: https://github.com/your-username
-- Email: your-email@example.com
+- LinkedIn: https://www.linkedin.com/in/soumyaranjansahoo0
+- GitHub: https://github.com/Ranjan234
+- Email: soumyanalyst323@gmail.com
 
 ---
 
