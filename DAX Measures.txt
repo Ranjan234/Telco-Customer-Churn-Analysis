@@ -1,0 +1,23 @@
+  
+                                                                        TELCO CHURN ANALYSIS 
+-- DAX MEASURES
+1. Total Customers = CALCULATE(DISTINCTCOUNT(Telco_customer[customerID]))
+2. Total Churn Customers = COUNTAX(FILTER(Telco_customer,Telco_customer[Churn]= "Yes"),Telco_customer[customerID])
+3. Active Customers = COUNTAX(FILTER(Telco_customer,Telco_customer[Churn]= "No"),Telco_customer[customerID])
+4. Churn Rate % = DIVIDE([Churn Customers], [Total Customers],0)
+5. Avg. Revenue Per Customer = DIVIDE([Total Revenue], [Total Customers])
+6. Avg. Tenure = AVERAGE(Telco_customer[tenure])
+7. Monthly Revenue Lost = CALCULATE(SUM(Telco_customer[MonthlyCharges]), Telco_customer[Churn] = "Yes")
+8. Revenue Lost Due to Churn = CALCULATE(SUM(Telco_customer[TotalCharges]), Telco_customer[Churn] = "Yes")
+9. Avg. Monthly Charges = AVERAGE(Telco_customer[MonthlyCharges])
+10. Total Revenue = SUM(Telco_customer[TotalCharges])
+
+canva BG : #010D40, #42A6FF
+Canva page : Type : Custom, W x H : 1400 x 720px
+
+ New Column:
+Tenure Band = SWITCH(TRUE(), 'Telco_customer'[tenure] >=0 && 'Telco_customer'[tenure]<=12, "High",
+                           'Telco_customer'[tenure] >=13 && 'Telco_customer'[tenure] <=35, "Medium",
+                           'Telco_customer'[tenure] >=36 && 'Telco_customer'[tenure] <=72, "Low",
+                           BLANK()
+                           )
