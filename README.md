@@ -8,6 +8,13 @@ The project follows an end-to-end Business Intelligence workflow:
 
 **Dataset → MySQL (Data Analysis) → Power BI (Dashboard & Visualization)**
 
+ ![Dashboard screenshot](https://github.com/Ranjan234/Telco-Customer-Churn-Analysis/blob/main/Dataset/Power%20BI%20file/Screenshot%202026-09-20%20215829.png)
+
+ 
+ 
+ [Open interactive dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiMTE3ZDBlMzctZGE4Ni00YjVmLThmYjAtNDY4NDA5OWI4NWE1IiwidCI6Ijc1ODk4MjEwLWZiNTUtNDk2ZS1iMDEyLWUxYzAzZDEzYWI2MCJ9)
+
+ 
 ---
 
 ## 🎯 Business Problem
